@@ -84,13 +84,11 @@ body {
 
 #about-us .left {
     opacity: 0;
-    transform: translate(-80px, 0px);
     transition: 2s;
 }
 
 #about-us .right {
     opacity: 0;
-    transform: translate(80px, 0px);
     transition: 2s;
 }
 
@@ -109,13 +107,11 @@ body {
 
 .cont-content #organik .right {
     opacity: 0;
-    transform: translate(80px, 0px);
     transition: 2s;
 }
 
 .cont-content #organik .left .panel-title {
     opacity: 0;
-    transform: translate(-80px, 0px);
     transition: 2s;
 }
 
@@ -127,7 +123,6 @@ body {
 
 
 .cont-content .h22 {
-    transform: translate(0px, -40px);
     transition: 2s;
     opacity: 0;
 }
@@ -141,13 +136,11 @@ body {
 
 .cont-content #anorganik .left {
     opacity: 0;
-    transform: translate(-80px, 0px);
     transition: 2s;
 }
 
 .cont-content #anorganik .right .panel-title {
     opacity: 0;
-    transform: translate(80px, 0px);
     transition: 2s;
 }
 
@@ -189,12 +182,6 @@ body {
 .child-title i {
     float: right;
     transition: all 0.5s;
-}
-
-.panel-heading.active a:before {
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    transform: rotate(180deg);
 }
 
 .card {
@@ -261,5 +248,17 @@ body {
 
     .navbar-brand:hover::after {
         display: none;
+    }
+
+    .jumbotron {
+        height: 600px;
+    }
+
+    .jumbotron h1 {
+        font-size: 56px;
+    }
+
+    .jumbotron h4 {
+        font-size: 32px;
     }
 }
