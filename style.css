@@ -1,0 +1,265 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(48, 46, 46);
+}
+
+i {
+    color: #f09b7a;
+}
+
+li {
+    color: rgb(48, 46, 46);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.jumbotron {
+    height: 780px;
+    background: url("img/city.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    font-size: 72px;
+    margin: auto;
+    margin-top: 180px;
+    color: #e26e20;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px#f09b7a;
+}
+
+.jumbotron h4 {
+    font-size: 48px;
+    margin: auto;
+    color: #f09b7a;
+    text-shadow: 2px 2px 4px#e26e20;
+}
+
+.container h2 {
+    margin-top: 200px;
+    color: #e26e20;
+    font-weight: bold;
+}
+
+.container hr {
+    background: #f09b7a;
+}
+
+.cont-about h2 {
+    transform: translate(0px, -40px);
+    transition: 2s;
+    opacity: 0;
+
+}
+
+.cont-about hr {
+    width: 0%;
+    transition: 2s;
+    height: 2px;
+    background: #f09b7a;
+}
+
+#about-us .left {
+    opacity: 0;
+    transform: translate(-80px, 0px);
+    transition: 2s;
+}
+
+#about-us .right {
+    opacity: 0;
+    transform: translate(80px, 0px);
+    transition: 2s;
+}
+
+.cont-content .h21 {
+    transform: translate(0px, -40px);
+    transition: 2s;
+    opacity: 0;
+}
+
+.cont-content .hr1 {
+    width: 0%;
+    transition: 2s;
+    height: 2px;
+    background: #f09b7a;
+}
+
+.cont-content #organik .right {
+    opacity: 0;
+    transform: translate(80px, 0px);
+    transition: 2s;
+}
+
+.cont-content #organik .left .panel-title {
+    opacity: 0;
+    transform: translate(-80px, 0px);
+    transition: 2s;
+}
+
+.organik {
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+.cont-content .h22 {
+    transform: translate(0px, -40px);
+    transition: 2s;
+    opacity: 0;
+}
+
+.cont-content .hr2 {
+    width: 0%;
+    transition: 2s;
+    height: 2px;
+    background: #f09b7a;
+}
+
+.cont-content #anorganik .left {
+    opacity: 0;
+    transform: translate(-80px, 0px);
+    transition: 2s;
+}
+
+.cont-content #anorganik .right .panel-title {
+    opacity: 0;
+    transform: translate(80px, 0px);
+    transition: 2s;
+}
+
+.panel-heading {
+    padding: 0;
+    border: 0;
+}
+
+.panel-title>a,
+.panel-title>a:active {
+    display: block;
+    padding: 15px;
+    color: #e26e20;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration: none;
+}
+
+.panel-heading a:hover {
+    color: blue;
+}
+
+.child-title>a,
+.child-title>a:active {
+    display: block;
+    padding: 0px;
+    color: rgb(48, 46, 46);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration: none;
+}
+
+.panel-heading i,
+.child-title i {
+    float: right;
+    transition: all 0.5s;
+}
+
+.panel-heading.active a:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.card {
+    border: 0px;
+}
+
+
+.cont-profil h2 {
+    transform: translate(0px, -40px);
+    transition: 2s;
+    opacity: 0;
+}
+
+.cont-profil hr {
+    width: 0%;
+    transition: 2s;
+    height: 2px;
+    background: #f09b7a;
+}
+
+#about {
+    margin-bottom: 200px;
+    opacity: 0;
+    transition: 4s;
+}
+
+
+.footer {
+    background: #e26e20;
+    height: 60px;
+    width: 100%;
+}
+
+.footer p {
+    color: white;
+    padding-top: 20px;
+}
+
+/* Mobile Version */
+
+@media(max-width:992px) {
+
+    .navbar {
+        position: relative;
+
+    }
+
+    .navbar-brand {
+        color: #e26e20;
+    }
+
+    .nav-link {
+        color: #e26e20;
+    }
+
+    .navbar-brand:hover,
+    .nav-link:hover {
+        margin-bottom: 0px;
+    }
+
+    .nav-link:hover::after {
+        display: none;
+    }
+
+    .navbar-brand:hover::after {
+        display: none;
+    }
+}
