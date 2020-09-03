@@ -27,12 +27,10 @@ $(window).scroll(function () {
     } else {
         $(".cont-about h2").css("opacity", 0);
         $(".cont-about hr").css("opacity", 0);
-        // $(".cont-about h2").css("transform", "translate(0, -80px)");
+        $(".cont-about h2").css("transform", "translate(0, -80px)");
         $(".cont-about hr").css("width", 0 + "%");
         $("#about-us .left").css("opacity", 0);
-        // $("#about-us .left").css("transform", "translate(-80px,0)");
         $("#about-us .right").css("opacity", 0);
-        // $("#about-us .right").css("transform", "translate(80px,0)");
     }
 
     if (WScroll >= $("#organik").offset().top - 400 && WScroll <= $("#anorganik").offset().top - 400) {
